@@ -15,6 +15,11 @@ body {
   color: #252525;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
