@@ -1,0 +1,39 @@
+body,
+p,
+h1,
+h2,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #252525;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Menu */
+.header-informacoes {
+  text-align: center;
+  font-size: .875em;
+  background: #d6d3c8;
+  padding: 5px 0;
+}
+
+.header-logo img {
+  margin: 40px auto;
+}
