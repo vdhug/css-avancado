@@ -1,4 +1,9 @@
-body, p, h1, h2, ul, li {
+body,
+p,
+h1,
+h2,
+ul,
+li {
 	margin: 0px;
 	padding: 0px;
 }
@@ -65,10 +70,21 @@ body {
 	background: #e7e4d8;
 	border: 3px solid #d6d3c8;
 	padding: 20px;
+	align-self: flex-start;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 5px;
+}
+
+@media (max-width: 768px) {
+	.filtro {
+		display: none;
+	}
 }
 
 .filtro h2 {
 	font-size: 1.125em;
+	font-weight: bold;
 	padding: 10px 0
 }
 
@@ -111,22 +127,22 @@ body {
 .sabor-3 {
 	color: #492901;
 	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor;
+		40px 0 0 0 currentColor;
 }
 
 .sabor-4 {
 	color: #c17139;
 	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor,
-							60px 0 0 0 currentColor;
+		40px 0 0 0 currentColor,
+		60px 0 0 0 currentColor;
 }
 
 .sabor-5 {
 	color: #d7a54d;
 	box-shadow: 20px 0 0 0 currentColor,
-							40px 0 0 0 currentColor,
-							60px 0 0 0 currentColor,
-							80px 0 0 0 currentColor;
+		40px 0 0 0 currentColor,
+		60px 0 0 0 currentColor,
+		80px 0 0 0 currentColor;
 }
 
 /*PRODUTOS*/
@@ -150,7 +166,8 @@ body {
 	font-size: 0.875em;
 	font-weight: bold;
 	position: relative;
-	top: -15px;;
+	top: -15px;
+	;
 }
 
 .produtos li h2 {
@@ -166,13 +183,3 @@ body {
 	line-height: 1.4em;
 	margin-top: 80px;
 }
-
-
-
-
-
-
-
-
-
-
