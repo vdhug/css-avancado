@@ -82,13 +82,16 @@
   width: calc(50% - 20px);
 }
 
-.row {
+.row,
+.row-mobile {
   margin-left: -10px;
   margin-right: -10px;
 }
 
 .row::after,
-.row::before {
+.row::before,
+.row-mobile::after,
+.row-mobile::before {
   content: '';
   display: table;
   clear: both;
